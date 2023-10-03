@@ -1,8 +1,8 @@
 package ru.netology.radio;
 
 public class Radio {
-    public int currentRadioStation;
-    public int soundVolume;
+    private int currentRadioStation;
+    private int soundVolume;
 
     public void next() {
         if (currentRadioStation != 9) {
